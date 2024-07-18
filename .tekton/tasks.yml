@@ -12,7 +12,7 @@ spec:
       env:
         - name: WORKSPACE_SOURCE_PATH
           value: $(workspaces.source.path)
-      workdingDir: $(workspaces.source.path)
+      workingDir: $(workspaces.source.path)
       securityContext:
         runAsNonRoot: false
         runAsUser: 0
